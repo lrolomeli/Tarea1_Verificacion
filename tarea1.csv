@@ -1,0 +1,50 @@
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+
+# Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# File: C:\Verificacion\tarea1\tarea1.csv
+# Generated on: Mon Feb 04 16:00:08 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+bits[7],Input,PIN_AB26,5,B5_N1,,,,,,
+bits[6],Input,PIN_AD26,5,B5_N2,,,,,,
+bits[5],Input,PIN_AC26,5,B5_N2,,,,,,
+bits[4],Input,PIN_AB27,5,B5_N1,,,,,,
+bits[3],Input,PIN_AD27,5,B5_N2,,,,,,
+bits[2],Input,PIN_AC27,5,B5_N2,,,,,,
+bits[1],Input,PIN_AC28,5,B5_N2,,,,,,
+bits[0],Input,PIN_AB28,5,B5_N1,,,,,,
+centenas[0],Output,PIN_AA25,5,B5_N1,,,,,,
+centenas[1],Output,PIN_AA26,5,B5_N1,,,,,,
+centenas[2],Output,PIN_Y25,5,B5_N1,,,,,,
+centenas[3],Output,PIN_W26,5,B5_N1,,,,,,
+centenas[4],Output,PIN_Y26,5,B5_N1,,,,,,
+centenas[5],Output,PIN_W27,5,B5_N1,,,,,,
+centenas[6],Output,PIN_W28,5,B5_N1,,,,,,
+decenas[0],Output,PIN_M24,6,B6_N2,,,,,,
+decenas[1],Output,PIN_Y22,5,B5_N0,,,,,,
+decenas[2],Output,PIN_W21,5,B5_N1,,,,,,
+decenas[3],Output,PIN_W22,5,B5_N0,,,,,,
+decenas[4],Output,PIN_W25,5,B5_N1,,,,,,
+decenas[5],Output,PIN_U23,5,B5_N1,,,,,,
+decenas[6],Output,PIN_U24,5,B5_N0,,,,,,
+unidades[0],Output,PIN_G18,7,B7_N2,,,,,,
+unidades[1],Output,PIN_F22,7,B7_N0,,,,,,
+unidades[2],Output,PIN_E17,7,B7_N2,,,,,,
+unidades[3],Output,PIN_L26,6,B6_N1,,,,,,
+unidades[4],Output,PIN_L25,6,B6_N1,,,,,,
+unidades[5],Output,PIN_J22,6,B6_N0,,,,,,
+unidades[6],Output,PIN_H22,6,B6_N0,,,,,,

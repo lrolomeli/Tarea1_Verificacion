@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "unidades[6]",
+					"strict" : false
+				},
+				{
+					"name" : "unidades[5]",
+					"strict" : false
+				},
+				{
+					"name" : "unidades[4]",
+					"strict" : false
+				},
+				{
+					"name" : "unidades[3]",
+					"strict" : false
+				},
+				{
+					"name" : "unidades[2]",
+					"strict" : false
+				},
+				{
+					"name" : "unidades[1]",
+					"strict" : false
+				},
+				{
+					"name" : "unidades[0]",
+					"strict" : false
+				},
+				{
+					"name" : "decenas[6]",
+					"strict" : false
+				},
+				{
+					"name" : "decenas[5]",
+					"strict" : false
+				},
+				{
+					"name" : "decenas[4]",
+					"strict" : false
+				},
+				{
+					"name" : "decenas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "decenas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "decenas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "decenas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "centenas[6]",
+					"strict" : false
+				},
+				{
+					"name" : "centenas[5]",
+					"strict" : false
+				},
+				{
+					"name" : "centenas[4]",
+					"strict" : false
+				},
+				{
+					"name" : "centenas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "centenas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "centenas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bits[7]",
+					"strict" : false
+				},
+				{
+					"name" : "bits[6]",
+					"strict" : false
+				},
+				{
+					"name" : "bits[2]",
+					"strict" : false
+				},
+				{
+					"name" : "bits[3]",
+					"strict" : false
+				},
+				{
+					"name" : "bits[4]",
+					"strict" : false
+				},
+				{
+					"name" : "bits[5]",
+					"strict" : false
+				},
+				{
+					"name" : "bits[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bits[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
