@@ -1,0 +1,22 @@
+
+
+always begin
+	if (bits < 10)
+		begin
+		centenas_l = 0;
+		decenas_l = 0;
+		unidades_l = bits;
+		end
+	else if (bits < 100)
+		begin
+		centenas_l = 0;
+		decenas_l = bits / 10;
+		unidades_l = bits-(decenas_l * 10);
+		end
+	else
+		begin
+		centenas_l = bits/100;
+		decenas_l = (bits-(centenas_l*100))/10;
+		unidades_l = bits-(centenas_l*100 + decenas_l*10);
+		end
+end

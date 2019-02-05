@@ -51,4 +51,36 @@ set_global_assignment -name SYSTEMVERILOG_FILE bcd.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AD26 -to bits[6]
+set_location_assignment PIN_AC26 -to bits[5]
+set_location_assignment PIN_AB27 -to bits[4]
+set_location_assignment PIN_AD27 -to bits[3]
+set_location_assignment PIN_AC27 -to bits[2]
+set_location_assignment PIN_AC28 -to bits[1]
+set_location_assignment PIN_AB28 -to bits[0]
+set_location_assignment PIN_AA25 -to centenas[0]
+set_location_assignment PIN_AA26 -to centenas[1]
+set_location_assignment PIN_Y25 -to centenas[2]
+set_location_assignment PIN_W26 -to centenas[3]
+set_location_assignment PIN_Y26 -to centenas[4]
+set_location_assignment PIN_W27 -to centenas[5]
+set_location_assignment PIN_W28 -to centenas[6]
+set_location_assignment PIN_M24 -to decenas[0]
+set_location_assignment PIN_Y22 -to decenas[1]
+set_location_assignment PIN_W21 -to decenas[2]
+set_location_assignment PIN_W22 -to decenas[3]
+set_location_assignment PIN_W25 -to decenas[4]
+set_location_assignment PIN_U23 -to decenas[5]
+set_location_assignment PIN_U24 -to decenas[6]
+set_location_assignment PIN_G18 -to unidades[0]
+set_location_assignment PIN_F22 -to unidades[1]
+set_location_assignment PIN_E17 -to unidades[2]
+set_location_assignment PIN_L26 -to unidades[3]
+set_location_assignment PIN_L25 -to unidades[4]
+set_location_assignment PIN_J22 -to unidades[5]
+set_location_assignment PIN_H22 -to unidades[6]
+set_global_assignment -name SYSTEMVERILOG_FILE segments.sv
+set_global_assignment -name SYSTEMVERILOG_FILE bitodec.sv
+set_location_assignment PIN_AB26 -to a2_in
+set_location_assignment PIN_Y19 -to a2_out
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

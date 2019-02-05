@@ -4,23 +4,7 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "unidades[6]",
-					"strict" : false
-				},
-				{
-					"name" : "unidades[5]",
-					"strict" : false
-				},
-				{
-					"name" : "unidades[4]",
-					"strict" : false
-				},
-				{
-					"name" : "unidades[3]",
-					"strict" : false
-				},
-				{
-					"name" : "unidades[2]",
+					"name" : "unidades[0]",
 					"strict" : false
 				},
 				{
@@ -28,31 +12,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "unidades[0]",
+					"name" : "unidades[2]",
 					"strict" : false
 				},
 				{
-					"name" : "decenas[6]",
+					"name" : "unidades[3]",
 					"strict" : false
 				},
 				{
-					"name" : "decenas[5]",
+					"name" : "unidades[4]",
 					"strict" : false
 				},
 				{
-					"name" : "decenas[4]",
+					"name" : "unidades[5]",
 					"strict" : false
 				},
 				{
-					"name" : "decenas[3]",
-					"strict" : false
-				},
-				{
-					"name" : "decenas[2]",
-					"strict" : false
-				},
-				{
-					"name" : "decenas[1]",
+					"name" : "unidades[6]",
 					"strict" : false
 				},
 				{
@@ -60,23 +36,27 @@
 					"strict" : false
 				},
 				{
-					"name" : "centenas[6]",
+					"name" : "decenas[1]",
 					"strict" : false
 				},
 				{
-					"name" : "centenas[5]",
+					"name" : "decenas[2]",
 					"strict" : false
 				},
 				{
-					"name" : "centenas[4]",
+					"name" : "decenas[3]",
 					"strict" : false
 				},
 				{
-					"name" : "centenas[3]",
+					"name" : "decenas[4]",
 					"strict" : false
 				},
 				{
-					"name" : "centenas[2]",
+					"name" : "decenas[5]",
+					"strict" : false
+				},
+				{
+					"name" : "decenas[6]",
 					"strict" : false
 				},
 				{
@@ -84,11 +64,31 @@
 					"strict" : false
 				},
 				{
-					"name" : "bits[7]",
+					"name" : "centenas[3]",
 					"strict" : false
 				},
 				{
-					"name" : "bits[6]",
+					"name" : "centenas[4]",
+					"strict" : false
+				},
+				{
+					"name" : "centenas[5]",
+					"strict" : false
+				},
+				{
+					"name" : "a2_out",
+					"strict" : false
+				},
+				{
+					"name" : "a2_in",
+					"strict" : false
+				},
+				{
+					"name" : "bits[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bits[3]",
 					"strict" : false
 				},
 				{
@@ -96,7 +96,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "bits[3]",
+					"name" : "bits[1]",
 					"strict" : false
 				},
 				{
@@ -108,11 +108,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "bits[0]",
-					"strict" : false
-				},
-				{
-					"name" : "bits[1]",
+					"name" : "bits[6]",
 					"strict" : false
 				}
 			]
