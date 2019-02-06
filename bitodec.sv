@@ -20,15 +20,15 @@ module bitodec
 input a2,
 input [6:0]bits,
 
-output [3:0]centenas_l,
-output [3:0]decenas_l,
-output [3:0]unidades_l,
-output sign
+output logic [6:0]centenas_l,
+output logic [6:0]decenas_l,
+output logic [6:0]unidades_l,
+output logic [6:0]sign
 );
 
 logic [6:0]complement_a2;
 
-always begin
+always_comb begin
 	/* Checar si el sw de complemento A2 esta encendido, */
 	/* Y si hay que proceder a negar la entrada y sumar uno. */
 	if(a2)

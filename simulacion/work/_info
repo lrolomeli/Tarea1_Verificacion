@@ -10,49 +10,73 @@ cModel Technology
 dC:/intelFPGA_lite/18.1
 vbcd
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1549332045
+!s110 1549333643
 !i10b 1
 !s100 SM<nNJC;n3=QiEeoW[h8W3
 I<kmEcf7f]zNOzJBXT0k=F2
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 !s105 bcd_sv_unit
 S1
-Z3 dC:/Verificacion/tarea1/simulacion
+Z2 dC:/Verificacion/tarea1/simulacion
 w1549332023
 8C:\Verificacion\tarea1\bcd.sv
 FC:\Verificacion\tarea1\bcd.sv
 L0 19
-Z4 OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1549332045.000000
+!s108 1549333643.000000
 !s107 C:\Verificacion\tarea1\bcd.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Verificacion\tarea1\bcd.sv|
 !i113 1
-Z6 o-work work -sv
-Z7 tCvgOpt 0
-vsegments
+Z4 o-work work -sv
+Z5 tCvgOpt 0
+vbitodec
 R0
-R1
+!s110 1549423504
 !i10b 1
-!s100 o`gOZD0L[nb4[B7X4bPZG2
-IaUJ=CHaRFK;3TAHak1jCL1
-R2
-!s105 segments_sv_unit
+!s100 ?3lcSFak[?USz2Y:4FSIk3
+IeBCcL^UJ_jb`jA2[flXc33
+R1
+!s105 bitodec_sv_unit
 S1
+R2
+w1549423498
+8C:\Verificacion\tarea1\bitodec.sv
+FC:\Verificacion\tarea1\bitodec.sv
+Z6 L0 18
 R3
-w1549329830
-8C:\Verificacion\tarea1\segments.sv
-FC:\Verificacion\tarea1\segments.sv
-L0 18
-R4
 r1
 !s85 0
 31
+!s108 1549423504.000000
+!s107 C:\Verificacion\tarea1\bitodec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Verificacion\tarea1\bitodec.sv|
+!i113 1
+R4
 R5
+vsegments
+R0
+!s110 1549333644
+!i10b 1
+!s100 o`gOZD0L[nb4[B7X4bPZG2
+IaUJ=CHaRFK;3TAHak1jCL1
+R1
+!s105 segments_sv_unit
+S1
+R2
+w1549329830
+8C:\Verificacion\tarea1\segments.sv
+FC:\Verificacion\tarea1\segments.sv
+R6
+R3
+r1
+!s85 0
+31
+!s108 1549333644.000000
 !s107 C:\Verificacion\tarea1\segments.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Verificacion\tarea1\segments.sv|
 !i113 1
-R6
-R7
+R4
+R5

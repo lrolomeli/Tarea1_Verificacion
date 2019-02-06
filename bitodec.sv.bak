@@ -22,8 +22,8 @@ input [6:0]bits,
 
 output [3:0]centenas_l,
 output [3:0]decenas_l,
-output [3:0]unidades_l,
-output sign
+output logic [3:0]unidades_l,
+output logic [6:0]sign
 );
 
 logic [6:0]complement_a2;
@@ -34,7 +34,7 @@ always begin
 	if(a2)
 	begin
 		sign = 126;
-		assign complement_a2 = ~(bits) + 1;
+		complement_a2 = ~(bits) + 1;
 	end
 	else
 	begin

@@ -1,23 +1,22 @@
-C:/Verificacion/tarea1/segments.sv {1 {vlog -work work -sv -stats=none C:/Verificacion/tarea1/segments.sv
+C:/Verificacion/tarea1/bcd.sv {1 {vlog -work work -sv -stats=none {C:\Verificacion\tarea1\bcd.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bcd
+
+Top level modules:
+	bcd
+
+} {} {}} C:/Verificacion/tarea1/bitodec.sv {1 {vlog -work work -sv -stats=none {C:\Verificacion\tarea1\bitodec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bitodec
+
+Top level modules:
+	bitodec
+
+} {} {}} C:/Verificacion/tarea1/segments.sv {1 {vlog -work work -sv -stats=none {C:\Verificacion\tarea1\segments.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module segments
 
 Top level modules:
 	segments
 
-} {} {}} C:/Verificacion/tarea1/bitodec.sv {0 {vlog -work work -sv -stats=none {C:\Verificacion\tarea1\bitodec.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module bitodec
-** Error: C:\Verificacion\tarea1\bitodec.sv(36): (vlog-2110) Illegal reference to net "sign".
-** Error: C:\Verificacion\tarea1\bitodec.sv(41): (vlog-2110) Illegal reference to net "sign".
-** Error: C:\Verificacion\tarea1\bitodec.sv(47): (vlog-2110) Illegal reference to net "centenas_l".
-** Error: C:\Verificacion\tarea1\bitodec.sv(48): (vlog-2110) Illegal reference to net "decenas_l".
-** Error: C:\Verificacion\tarea1\bitodec.sv(49): (vlog-2110) Illegal reference to net "unidades_l".
-** Error: C:\Verificacion\tarea1\bitodec.sv(54): (vlog-2110) Illegal reference to net "centenas_l".
-** Error: C:\Verificacion\tarea1\bitodec.sv(55): (vlog-2110) Illegal reference to net "decenas_l".
-** Error: C:\Verificacion\tarea1\bitodec.sv(56): (vlog-2110) Illegal reference to net "unidades_l".
-** Error: C:\Verificacion\tarea1\bitodec.sv(63): (vlog-2110) Illegal reference to net "centenas_l".
-** Error: C:\Verificacion\tarea1\bitodec.sv(64): (vlog-2110) Illegal reference to net "decenas_l".
-** Error: C:\Verificacion\tarea1\bitodec.sv(65): (vlog-2110) Illegal reference to net "unidades_l".
-
-} {4.0 15.0} {}}
+} {} {}}
